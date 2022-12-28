@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SQLDataImplementation"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30px"
+        android:background="#8D85D685"
+        >
+        <EditText
+            android:id="@+id/edtEnterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name "
+            android:ems="10"
+            android:textAlignment="center"
+            ></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEnterNumber"
+            android:hint="Enter Your Phone Number"
+            android:inputType="number"
+            android:textAlignment="center">
+
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnInsert"
+            android:text="INSERT"
+            android:layout_gravity="center"
+            ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30px"
+        android:background="#8DA3AEE3"
+        >
+        <EditText
+            android:id="@+id/edtEnterNameUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name "
+            android:ems="10"
+            android:textAlignment="center"
+            ></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEnterNumberUpdate"
+            android:hint="Enter Your Phone Number"
+            android:inputType="number"
+            android:textAlignment="center">
+
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUpdateNumber"
+            android:text="UPDATE NUMBER"
+            android:layout_gravity="center"
+            ></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUpdateName"
+            android:text="UPDATE NAME"
+            android:layout_gravity="center"
+            ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30px"
+        android:background="#E8E488E8"
+        >
+        <EditText
+            android:id="@+id/edtEnterNameDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name "
+            android:ems="10"
+            android:textAlignment="center"
+            ></EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDeleteName"
+            android:text="DELETE BY NAME"
+            android:layout_gravity="center"
+            ></Button>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEnterNumberDelete"
+            android:hint="Enter Your Phone Number"
+            android:inputType="number"
+            android:textAlignment="center">
+
+        </EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDeleteNumber"
+            android:text="DELETE BY NUMBER"
+            android:layout_gravity="center"
+            ></Button>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFetch"
+            android:text="FETCH"
+            android:layout_gravity="center"
+            ></Button>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20px">
+            <TextView
+                android:id="@+id/txtFetchData"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textAlignment="center">
+
+
+            </TextView>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

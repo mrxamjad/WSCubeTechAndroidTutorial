@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:weightSum="10"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+
+        >
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_above="@id/btnOtherService"
+            android:layout_weight="1"
+
+
+            ></Button>
+        <Button
+            android:id="@+id/btnWebSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      "
+            android:background="@drawable/web_search"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btnHomeToImlicit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="implicit"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+
+            ></Button>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnOtherService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Other Services of this app"
+        android:backgroundTint="#C3BBDAD6"
+        android:textColor="#500983"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+</LinearLayout>

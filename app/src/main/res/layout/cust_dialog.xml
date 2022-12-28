@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000px"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:background="#E6EFE8">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        ><ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/successful_order_foreground"
+        android:background="#5EC61D"
+
+        ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SuccessFull"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#04870A"
+            android:textAlignment="center"
+            ></TextView>
+        <TextView
+            android:layout_margin="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Send Successfully "
+            android:textSize="18sp"
+
+            android:textColor="#0F1012"
+            android:textAlignment="center"
+            ></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

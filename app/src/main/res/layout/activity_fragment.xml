@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentActivity"
+
+    android:orientation="vertical"
+    android:weightSum="10">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:layout_weight="9"
+
+        ></FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_margin="10dp"
+
+        >
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="frag1"
+            android:id="@+id/btnFrag1"
+            android:layout_margin="2dp"></Button>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="frag2"
+            android:id="@+id/btnFrag2"
+            android:layout_margin="2dp"></Button>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="frag3"
+            android:id="@+id/btnFrag3"
+            android:layout_margin="2dp"></Button>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

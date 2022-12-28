@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Frag1"
+    android:background="@drawable/home"
+    android:backgroundTint="@color/black">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRAG MEN! 1"
+        android:layout_centerInParent="true"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200"
+        android:background="#F3F0F0"
+
+
+        />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20px"
+
+
+        />
+    <TextView
+        android:id="@+id/txtProfession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profession"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtName"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+</RelativeLayout>
